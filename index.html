@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+  <div class="contenedor">
+
+
+  <img class="b-lazy"  data-src="images/star-wars-logo.jpeg" width="350"  alt="Logo de Star Wars"/>
+
+  <img class="b-lazy"  data-src="images/darth-vader.jpg" width="350"  alt="Darth Vader"/>
+
+  <img class="b-lazy"  data-src="images/ben-kenobi.jpg" width="350" alt="Ben Kenobi"/>
+
+  <img class="b-lazy"  data-src="images/boba.jpg" width="350" alt="Boba Fett"/>
+
+  <img class="b-lazy"  data-src="images/chewie.jpg" width="350" alt="Chewie"/>
+
+  <img class="b-lazy"  data-src="images/C-3PO.jpg" width="350" alt="C-3PO"/>
+
+  <img class="b-lazy"  data-src="http://www.model-space.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/r/2/r2d2.jpg" width="350" alt="R2D2"/>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+
+  <script type="text/javascript">
+
+  //Lazy Loading for images
+  var bLazy = new Blazy({
+    // options
+    selector: "img"
+
+});
+
+
+  </script>
+
+  <link rel="stylesheet" href="css/style.css" />
+  </body>
+</html>
